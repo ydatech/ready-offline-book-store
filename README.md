@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 It uses :
 - Redux for State Management
-- Redux Persist for state caching (offline mode)
+- Redux Persist for storing state in localStorage (offline mode)
 - React Router for application router
 - Material-UI for UI components
 - axios  (for ajax request)
