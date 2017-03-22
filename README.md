@@ -3,11 +3,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 It uses :
 - Redux for State Management
-- Redux Persist for state caching (for offline mode)
+- Redux Persist for state caching (offline mode)
 - React Router for application router
 - Material-UI for UI components
 - axios  (for ajax request)
-- sw-precache for caching static content (for offline mode)
+- sw-precache for caching static content (offline mode)
 - json-server for creating fake RESTful api
 - etc..
 
