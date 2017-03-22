@@ -6,7 +6,7 @@ It uses :
 - Redux Persist for state caching (for offline mode)
 - React Router for application router
 - Material-UI for UI components
-- axios for async actions
+- axios  (for ajax request)
 - sw-precache for caching static content (for offline mode)
 - json-server for creating fake RESTful api
 - etc..
