@@ -1,12 +1,29 @@
+# Ready Offline Book Store
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Setup & Install Depedncies
+It uses :
+- Redux for State Management
+- Redux Persist for state caching (for offline mode)
+- React Router for application router
+- Material-UI for UI components
+- axios for async actions
+- sw-precache for caching static content (for offline mode)
+- json-server for creating fake RESTful api
+- etc..
+
+It has 4  routes:
+- `/` Home Page (Show All Available Books)
+- `/order-history` Order History Page
+- `/checkout` Checkout Page
+- `/admin` Admin Page (Create/ Add New Book)
+
+## Setup 
 
 ### `npm install`
 Install all dependencies
 
 ### `node api-server.js`
-Run Fake RESTFul server
+Run Fake RESTFul server on <http://localhost:3004>
 
 
 
